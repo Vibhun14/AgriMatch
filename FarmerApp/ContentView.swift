@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var viewModel: AuthViewModel
+    @State private var hasFinishedOnboarding: Bool = false
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if viewModel.userSession != nil {
+                MainTabView()
+            } else if viewModel.userSession == nil {
+                if !hasFinishedOnboarding {
+                    IntroView {
+                        hasFinishedOnboarding = true
+                    }
+                } else {
+                    LoginView()
+                }
+            }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
