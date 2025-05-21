@@ -11,6 +11,7 @@ Farmers can swipe through recommended plant pairings (companion planting), searc
 - **Dynamic Search:** Instantly search and pick plants directly through a fast, clean search experience.
 - **Smart Home Dashboard:** (Updates coming soon) View your accepted crops, success stats, and optimize your planting decisions.
 - **Profile Management:** Manage your account and reset your preferences anytime.
+- **Tips Page:** View curated tips based on selected plants and a daily tip.
 - **Sustainable Focus:** Encourages sustainable and eco-friendly farming practices through optimized companion planting.
 
 ---
