@@ -12,7 +12,7 @@ Farmers can swipe through recommended plant pairings (companion planting), searc
 - **Smart Home Dashboard:** (Updates coming soon) View your accepted crops, success stats, and optimize your planting decisions.
 - **Profile Management:** Manage your account and reset your preferences anytime.
 - **Tips Page:** View curated tips based on selected plants and a daily tip.
-- **Watering Page:** Track watering frequency and ensure you are not water too much or too little.
+- **Watering Page:** Track watering frequency and ensure you are not watering too much or too little.
 - **Sustainable Focus:** Encourages sustainable and eco-friendly farming practices through optimized companion planting.
 
 ---
