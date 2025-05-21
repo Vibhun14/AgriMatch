@@ -29,11 +29,11 @@ Farmers can swipe through recommended plant pairings (companion planting), searc
 
 ## 👨‍💻 Team Members
 
-- **Vibhun Naredla** — Lead Developer & Architect  
-- **Aryan Mathur** — UI/UX Designer  
-- **Ronav Gopal** — Database Manager & Firebase Integration  
-- **Aditya Shah** — Project Coordinator & QA  
-- **Samarth Chenumolu** — Data Collection & Plant Dataset Curation
+- **Vibhun Naredla** — Team Captain, Lead Developer, UI/UX Designer & Architect
+- **Aryan Mathur** — Gemini API Integration
+- **Ronav Gopal** — Data Collection & Plant Dataset Curation
+- **Aditya Shah** — Project Coordinator & QA
+- **Samarth Chenumolu** — Slideshow & Presentability
 
 ---
 
@@ -50,11 +50,10 @@ Farmers can swipe through recommended plant pairings (companion planting), searc
 
 ## 📈 Future Improvements
 
-- Auto-sync plant preferences across devices.
 - Add seasonal tips and AI-driven planting advice.
-- Dark Mode optimization.
 - Real-time weather integration for planting recommendations.
 - Leaderboard of most popular companion pairings among users.
+- Watering Schedule
 
 ---
 
