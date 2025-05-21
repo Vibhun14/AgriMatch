@@ -30,7 +30,7 @@ Farmers can swipe through recommended plant pairings (companion planting), searc
 ## 👨‍💻 Team Members
 
 - **Vibhun Naredla** — Team Captain, Lead Developer, UI/UX Designer & Architect
-- **Aryan Mathur** — Gemini API Integration
+- **Aryan Mathur** — Gemini API Integration, UI/UX Designer
 - **Ronav Gopal** — Data Collection & Plant Dataset Curation
 - **Aditya Shah** — Project Coordinator & QA
 - **Samarth Chenumolu** — Slideshow & Presentability
