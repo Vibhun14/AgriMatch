@@ -30,7 +30,7 @@ Farmers can swipe through recommended plant pairings (companion planting), searc
 ## 👨‍💻 Team Members
 
 - **Vibhun Naredla** — Team Captain, Lead Developer, UI/UX Designer & Architect
-- **Aryan Mathur** — Gemini API Integration, UI/UX Designer
+- **Aryan Mathur** — Gemini API Backend Integration, UI/UX Designer
 - **Ronav Gopal** — Data Collection & Plant Dataset Curation
 - **Aditya Shah** — Project Coordinator & QA
 - **Samarth Chenumolu** — Slideshow & Presentability
@@ -104,6 +104,22 @@ This machine learning feature uses a **deep learning image classifier** trained 
 ### Contribution Note
 This model was trained using publicly available tools and datasets. The dataset used is the **PlantVillage dataset**, made available via [Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease).  
 We thank the open-source ML community and researchers who have contributed foundational resources for agricultural AI.
+
+---
+
+## 🔐 Gemini API Integration via Cloudflare Worker
+
+To support dynamic and secure generation of plant care tips, AgriMatch integrates the **Gemini API** through a custom-built **Cloudflare Worker**.
+
+### Implementation Highlights
+1. **Cloudflare Worker Setup:** A lightweight, serverless function was created to securely handle AI-generated content requests.
+2. **API Key Management:** The Gemini API key is stored as a secret variable using `.env` configuration to prevent exposure in the frontend code.
+3. **Rate Limiting:** The worker includes IP-based rate limiting to prevent abuse or excessive requests from a single user.
+4. **Secure POST Requests:** Prompts are sent via a JSON-formatted POST request to ensure clean, structured data handling.
+5. **Gemini API Integration:** The prompt is entered into Gemini's API, which returns curated tips relevant to user-selected crops.
+6. **Error Handling:** The worker includes robust error logging and response messages in case of API issues or malformed requests.
+
+This architecture ensures **speed**, **security**, and **scalability** while delivering personalized agricultural insights in real time.
 
 ---
 
